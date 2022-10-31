@@ -11,6 +11,7 @@ const EditUser = () => {
  
   useEffect(() => {
     getUserById();
+    // eslint-disable-next-line
   }, []);
  
   const getUserById = async () => {
